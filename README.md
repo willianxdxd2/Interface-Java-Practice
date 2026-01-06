@@ -12,7 +12,28 @@ serve como uma forma de visualizar e colocar em caixinhas classes semelhantes ne
 
 #bônus- Todas as interfaces utlizaram Programação orientada a objetos de maneira massiva para fixar melhor o conteúdo na mente e a prática com varios exercicios.
 #utilizei exemplos reais, como venda de equipamentos,saldo bancário e desconto de imposto
+Interface-Java-Practice
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Learning how to use interfaces at the right moment in the code, aiming to make Object-Oriented Programming more organized, clear, and well-structured.
 
+Technologies
+
+Java SE
+
+Eclipse
+
+What I Learned
+
+I learned that interfaces should be used as contracts to be followed by other classes. They help define a clear structure and organize the code in a more rational way, allowing similar classes to be grouped conceptually without the need to rely on inheritance.
+
+I believe interfaces are especially useful in large-scale systems, where maintaining organization, flexibility, and readability is essential.
+
+Bonus
+
+All interfaces were implemented using Object-Oriented Programming principles extensively, in order to better reinforce the concepts through hands-on practice and multiple exercises.
+
+I used real-world examples, such as equipment sales, bank account balances, and tax discount calculations, to make the learning process more practical and realistic.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 *EXERCÍCIOS INTERFACE*
 
 1️⃣-Forma Geométrica 
