@@ -13,7 +13,7 @@ serve como uma forma de visualizar e colocar em caixinhas classes semelhantes ne
 #bônus- Todas as interfaces utlizaram Programação orientada a objetos de maneira massiva para fixar melhor o conteúdo na mente e a prática com varios exercicios.
 #utilizei exemplos reais, como venda de equipamentos,saldo bancário e desconto de imposto
 
-*Exercicio interfaces*
+*EXERCÍCIOS INTERFACE*
 
 1️⃣-Forma Geométrica 
 Crie uma interface Forma com os métodos area() e perimetro(). Implemente as classes Circulo e Retangulo.(feito)
@@ -61,7 +61,7 @@ Criar classe Funcionario (nome, LocalDate dataContratacao).
 Implementar Comparable<Funcionario>.
 Ordenar por data de contratação mais antiga primeiro; se empatar, nome.
 
-*Interface Default*
+*INTERFACE DEFAULT*
 
 1️⃣ Log padrão em serviços
 Interface Servico com método default logarExecucao().
