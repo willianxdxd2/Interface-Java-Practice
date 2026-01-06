@@ -28,3 +28,53 @@ Crie uma interface Pagamento com o método processarPagamento(double valor). Imp
 5-Interface com Constantes
 Crie uma interface ConstantesMatematicas contendo PI, E. Use-as em uma classe que calcula o volume de uma esfera.(Feito)
 
+#Second commit
+Aprofundando Tecnicas com interface
+
+*INTERFACE COMPARABLE*
+1️⃣ Alunos – Ranking por média
+Criar classe Aluno (nome, mediaFinal).
+Implementar Comparable<Aluno>.
+Ordenar por média decrescente; em caso de empate, por nome crescente.
+Usar Collections.sort().
+
+2️⃣ Jogadores – Ranking online
+Criar classe Jogador (nickname, pontuacao, nivel).
+Implementar Comparable<Jogador>.
+Ordenar por pontuação decrescente; se empatar, nível decrescente.
+
+3️⃣ Produtos – Ordenação por preço
+Criar classe Produto (nome, preco).
+Implementar Comparable<Produto>.
+Ordenar por preço crescente; se empatar, nome crescente.
+
+4️⃣ Compromissos – Agenda
+Criar classe Compromisso (descricao, LocalDateTime dataHora).
+Implementar Comparable<Compromisso>.
+Ordenar por data/hora mais próxima primeiro.
+
+5️⃣ Funcionários – Tempo de empresa
+Criar classe Funcionario (nome, LocalDate dataContratacao).
+Implementar Comparable<Funcionario>.
+Ordenar por data de contratação mais antiga primeiro; se empatar, nome.
+
+*Interface Default*
+1️⃣ Log padrão em serviços
+Interface Servico com método default logarExecucao().
+Classe ServicoEmail implementa Servico e chama o default antes de executar.
+
+2️⃣ Validação padrão
+Interface Validador com validar(String) e default validarNaoVazio(String).
+Classe ValidadorEmail usa o default e valida presença de "@".
+
+3️⃣ Cálculo com fallback
+Interface Frete com default calcular(double) retornando 20.0.
+Classes FretePadrao (default) e FreteGratis (override 0.0).
+
+4️⃣ Conflito de default methods
+Interfaces Auditoria e Monitoramento com default registrar().
+Classe SistemaFinanceiro implementa ambas e resolve o conflito chamando os dois métodos.
+
+5️⃣ Evolução de interface (API)
+Interface Repositorio com salvar() e novo default logSalvar().
+Classe RepositorioUsuario chama logSalvar() dentro de salvar().
